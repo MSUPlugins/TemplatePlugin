@@ -1,0 +1,12 @@
+language: "中文（中国）"
+language-file-version: 1
+language-file-contributor: "MCUmbrella"
+
+usage: |-2
+  用法:
+    /templatecommand:
+      用户命令
+    /templatecommand admin:
+      管理命令
+err-permission-denied: "权限不够"
+err-player-only: "此命令仅限玩家使用"

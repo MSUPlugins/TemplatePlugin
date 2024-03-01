@@ -1,0 +1,21 @@
+name: TemplatePlugin
+version: '${project.version}'
+description: TODO
+authors: [ MCUmbrella ]
+website: HTTPS://WWW.TODO.COM
+main: vip.floatationdevice.msu.templateplugin.TemplatePlugin
+api-version: 1.13
+load: POSTWORLD
+depend:
+  - MSUCore
+commands:
+  templatecommand:
+    description: "TODO"
+    aliases: []
+permissions:
+  templateplugin.use:
+    description: "TODO"
+    default: true
+  templateplugin.admin:
+    description: "TODO"
+    default: op

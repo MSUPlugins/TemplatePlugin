@@ -1,0 +1,5 @@
+# DO NOT CHANGE unless you know how to manually upgrade the configuration file
+version: 1
+
+# Available: "en_US", "zh_CN"
+language: "en_US"

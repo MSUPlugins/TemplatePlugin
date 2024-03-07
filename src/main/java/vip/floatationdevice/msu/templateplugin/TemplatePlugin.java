@@ -14,7 +14,7 @@ public final class TemplatePlugin extends JavaPlugin //TODO
     static I18nManager i18n;
 
     @Override
-    public void onEnable() //TODO: plugin shutdown logic
+    public void onEnable() //TODO: plugin startup logic
     {
         // initialize static fields
         instance = this;
@@ -30,7 +30,7 @@ public final class TemplatePlugin extends JavaPlugin //TODO
     }
 
     @Override
-    public void onDisable() //TODO: plugin startup logic
+    public void onDisable() //TODO: plugin shutdown logic
     {
         log.info("TemplatePlugin is being disabled");
     }
